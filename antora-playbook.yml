@@ -35,3 +35,4 @@ asciidoc:
     allow-uri-read: true
   extensions:
     - asciidoctor-kroki
+    - ./lib/inline-puml-link-macro.js

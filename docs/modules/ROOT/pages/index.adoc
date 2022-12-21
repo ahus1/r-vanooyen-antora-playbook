@@ -4,7 +4,9 @@ welcome to my system
 
 == System context
 
-[plantuml, format=svg, opts="inline",subs=macros]
+puml-link:target.adoc[]
+
+[plantuml, format=svg, opts="inline",subs=+macros]
 ....
 !include <C4/C4_Container>
 
