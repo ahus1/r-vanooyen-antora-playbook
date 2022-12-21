@@ -4,15 +4,13 @@ welcome to my system
 
 == System context
 
-puml-link:target.adoc[]
-
 [plantuml, format=svg, opts="inline",subs=+macros]
 ....
 !include <C4/C4_Container>
 
 Person(personAlias, "Label", "Optional Description")
 Container(containerAlias, "Label", "Technology", "Optional Description")
-System(systemAlias, "Label", "Optional Description", $link="xref:target.adoc")
+System(systemAlias, "Label", "Optional Description", $link="link-in-puml:target.adoc[]")
 
 System_Ext(extSystemAlias, "Label", "Optional Description")
 
