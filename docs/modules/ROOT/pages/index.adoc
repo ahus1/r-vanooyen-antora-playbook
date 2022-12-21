@@ -1,0 +1,20 @@
+= Welcome
+
+welcome to my system
+
+== System context
+
+[plantuml, format=svg, opts="inline",subs=macros]
+....
+!include <C4/C4_Container>
+
+Person(personAlias, "Label", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description", $link="xref:target.adoc")
+
+System_Ext(extSystemAlias, "Label", "Optional Description")
+
+Rel(personAlias, containerAlias, "Label", "Optional Technology")
+
+Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
+....

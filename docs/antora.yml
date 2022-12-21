@@ -1,0 +1,5 @@
+name: testplaybook
+title: "Testplaybook"
+version: '0.1.0'
+nav:
+  - modules/ROOT/nav.adoc
